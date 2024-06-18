@@ -215,7 +215,7 @@ nav .navlinks li a{
 
 /* General styles for experience and projects section */
 .experience-section {
-    background-color: #1f1f1f;
+    background-color: #222;
     color: #e0e0e0;
     padding: 2rem 1rem;
 }
@@ -233,7 +233,7 @@ nav .navlinks li a{
     margin-bottom: 2rem;
 }
 
-.experience-item, .project-item {
+.experience-item, .project-item, .achievement-item {
     background: #292929;
     border: 1px solid #444;
     border-radius: 8px;
@@ -243,7 +243,7 @@ nav .navlinks li a{
     align-items: center;
 }
 
-.experience-item h3, .project-item h3 {
+.experience-item h3, .project-item h3, .achievement-item h3 {
     color: #007ced;
     margin-bottom: 0.5rem;
 }
@@ -264,35 +264,35 @@ nav .navlinks li a{
     text-decoration: underline;
 }
 
-.experience-item p, .project-item p {
+.experience-item p, .project-item p, .achievement-item p {
     font-size: 1rem;
     line-height: 1.6;
 }
 
-.project-item a {
+.project-item a, .achievement-item a {
     display: block;
     margin-right: 1rem;
     flex-shrink: 0;
 }
 
-.project-item img {
+.project-item img, .achievement-item img {
     max-width: 200px;
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
 
-.project-item img:hover {
+.project-item img:hover, .achievement-item img::hover {
     transform: scale(1.05);
 }
 
-.project-info {
+.project-info, .achievement-info {
     flex-grow: 1;
 }
 
-.project-info h3 {
+.project-info h3, .achievement-info h3 {
     margin-top: 0;
 }
 
-.project-info p {
+.project-info p, .achievement-info p {
     margin-top: 0.5rem;
 }
