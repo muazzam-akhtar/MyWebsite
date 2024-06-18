@@ -281,7 +281,11 @@ nav .navlinks li a{
     transition: transform 0.3s ease;
 }
 
-.project-item img:hover, .achievement-item img::hover {
+.project-item img:hover {
+    transform: scale(1.05);
+}
+
+.achievement-item img:hover {
     transform: scale(1.05);
 }
 
