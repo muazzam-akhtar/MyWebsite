@@ -1,185 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Responsive Portfolio Website Design</title>
-	<link rel="stylesheet" href="style.css">
-	<!----Font awesome cdn  font icon css -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-</head>
-<body>
-	<div class="hero-header">
-		<div class="wrapper">
-			<header>
-				<div class="logo">
-					<i class="fa-solid fa-m"></i>
-					<div class="logo-text">Muazzam Akhtar</div>
-				</div>
-				<nav>
-					<div class="togglebtn">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
-					<ul class="navlinks">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Achievements</a></li>
-					</ul>
-				</nav>
-			</header>
-			<div class="container">
-				<div class="hero-pic">
-					<img src="images/2.png" alt="profile pic">
-				</div>
-				<div class="hero-text">
-					<h5>Hi I'm <span class="input">VR Developer</span></h5>
-					<h1>Muazzam Akhtar</h1>
-					<p> Game/VR/Python Developer with 3+ years of experience.
-						Proficient in Python, C#, Unity, and VR SDKs. Expert in 3D modeling, animation, and UI design.
-						Proven leader in delivering high-quality gaming and VR experiences. Skilled problem-solver and
-						communicator. Successfully launched multiple VR applications.
-					</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <!----Font awesome cdn  font icon css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="hero-header" id="hero-header">
+      <div class="wrapper">
+        <header>
+          <div class="logo">
+            <i class="fa-solid fa-m"></i>
+            <div class="logo-text">Muazzam Akhtar</div>
+          </div>
+          <nav>
+            <div class="togglebtn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="navlinks">
+              <li><a href="#hero-header">Home</a></li>
+              <li><a href="#experience">Portfolio</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="container">
+          <div class="hero-pic">
+            <img src="images/2.png" alt="profile pic" />
+          </div>
+          <div class="hero-text">
+            <h5>Hi I'm <span class="input">VR Developer</span></h5>
+            <h1>Muazzam Akhtar</h1>
+            <p>
+              Game/VR/Python Developer with 3+ years of experience. Proficient
+              in Python, C#, Unity, and VR SDKs. Expert in 3D modeling,
+              animation, and UI design. Proven leader in delivering high-quality
+              gaming and VR experiences. Skilled problem-solver and
+              communicator. Successfully launched multiple VR applications.
+            </p>
 
-					<div class="btn-group">
-					<a href="#" class="btn active">Download CV</a>
-					<a href="#" class="btn">Contact</a>
-					</div>
+            <div class="btn-group">
+              <a href="#" class="btn active">Download CV</a>
+              <a href="#" class="btn">Contact</a>
+            </div>
 
-					<div class="social">
-						<a href="https://www.linkedin.com/in/muazzamakhtar/"><i class="fa-brands fa-linkedin"></i></a>
-						<a href="https://github.com/Genius-gambit"><i class="fa-brands fa-github"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/muazzamakhtar/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Genius-gambit"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<!-- Section of Experiences -->
+    <!-- Section of Experiences -->
 
-	<div class="experience-section">
-		<div class="wrapper">
-			<section id="experience">
-				<h2>Experience</h2>
-				<div class="experience-item">
-					<h3>Unity Developer</h3>
-					<span><a href="https://www.abccompany.com" target="_blank">Navcon Advanced Systems</a> - Jan 2019 to Present</span>
-					<p>Lead the development of immersive VR applications, enhancing user experience through innovative design and advanced technologies. Successfully launched multiple high-profile projects, contributing significantly to the company's growth.</p>
-				</div>
-			</section>
+    <div class="experience-section">
+      <div class="wrapper">
+        <section id="experience">
+          <h2>Experience</h2>
+          <div class="experience-item">
+            <h3>Unity Developer</h3>
 
-			<!-- Section of Projects Developed -->
+            <div class="timeline">
+              <a href="https://www.abccompany.com" target="_blank"
+                >Navcon Advanced Systems</a
+              >
+              <p>Jan 2023 - Present</p>
+            </div>
 
-			<section id="projects">
-				<h2>Projects Developed</h2>
+            <p>
+              Lead the development of immersive VR applications, enhancing user
+              experience through innovative design and advanced technologies.
+              Successfully launched multiple high-profile projects, contributing
+              significantly to the company's growth.
+            </p>
+          </div>
+        </section>
 
-				<!-- Aviatrix -->
+        <!-- Section of Projects Developed -->
 
-				<div class="project-item">
-					<a href="https://joystickcoder.itch.io/aviatrix" target="_blank">
-						<img src="images/aviatrix.png" alt="Aviatrix" class="project-image">
-					</a>
-					<div class="project-info">
-						<h3>Aviatrix</h3>
-						<p>Developed a realistic helicopter flight simulator in Unity with physics modeling and VR support using the Oculus SDK. Demonstrated skills in VR development, C#, and 3D graphics.</p>
-					</div>
-				</div>
-				
-				<!-- Drift City -->
+        <section id="projects">
+          <h2>Projects Developed</h2>
 
-				<div class="project-item">
-                    <a href="https://joystickcoder.itch.io/drift-city" target="_blank">
-                        <img src="images/DriftCity.png" alt="Drift City" class="project-image">
-                    </a>
-                    <div class="project-info">
-                        <h3>Drift City</h3>
-                        <p>Created a dynamic car racing game in Unity, featuring realistic physics, AI opponents, and immersive 3D environments. Showcased expertise in game design and optimization techniques.</p>
-                    </div>
-                </div>
-				
-				<!-- Galaxy Shooter Info -->
+          <!-- Aviatrix -->
 
-				<div class="project-item">
-                    <a href="https://joystickcoder.itch.io/space-shooter-pro" target="_blank">
-                        <img src="images/GalaxyShooterMain.png" alt="Galaxy Shooter" class="project-image">
-                    </a>
-                    <div class="project-info">
-                        <h3>Galaxy Shooter</h3>
-                        <p>Developed an engaging 2D shoot-'em-up game in Unity, incorporating intense action, diverse enemy patterns, and power-ups. Demonstrated skills in game design and performance optimization.</p>
-                    </div>
-                </div>
+          <div class="project-item">
+            <a href="https://joystickcoder.itch.io/aviatrix" target="_blank">
+              <img
+                src="images/aviatrix.png"
+                alt="Aviatrix"
+                class="project-image"
+              />
+            </a>
+            <div class="project-info">
+              <h3>Aviatrix</h3>
+              <p>
+                Developed a realistic helicopter flight simulator in Unity with
+                physics modeling and VR support using the Oculus SDK.
+                Demonstrated skills in VR development, C#, and 3D graphics.
+              </p>
+            </div>
+          </div>
 
-				<!-- ft_Transcendence Info -->
+          <!-- Drift City -->
 
-				<div class="project-item">
-                    <a href="https://transcendence.opinfosec.net/" target="_blank">
-                        <img src="images/transcendence.png" alt="ft_transcendence" class="project-image">
-                    </a>
-                    <div class="project-info">
-                        <h3>ft_transcendence</h3>
-                        <p>A web application for the users to play a ping pong game against each other. A last team project of 42 Abu Dhabi consists of 4 members.</p>
-                    </div>
-                </div>
-				<!-- Add more projects as needed -->
-			</section>
+          <div class="project-item">
+            <a href="https://joystickcoder.itch.io/drift-city" target="_blank">
+              <img
+                src="images/DriftCity.png"
+                alt="Drift City"
+                class="project-image"
+              />
+            </a>
+            <div class="project-info">
+              <h3>Drift City</h3>
+              <p>
+                Created a dynamic car racing game in Unity, featuring realistic
+                physics, AI opponents, and immersive 3D environments. Showcased
+                expertise in game design and optimization techniques.
+              </p>
+            </div>
+          </div>
 
-			<section>
-				<h2>Achievements</h2>
+          <!-- Galaxy Shooter Info -->
 
-				<!-- Qissa -->
+          <div class="project-item">
+            <a
+              href="https://joystickcoder.itch.io/space-shooter-pro"
+              target="_blank"
+            >
+              <img
+                src="images/GalaxyShooterMain.png"
+                alt="Galaxy Shooter"
+                class="project-image"
+              />
+            </a>
+            <div class="project-info">
+              <h3>Galaxy Shooter</h3>
+              <p>
+                Developed an engaging 2D shoot-'em-up game in Unity,
+                incorporating intense action, diverse enemy patterns, and
+                power-ups. Demonstrated skills in game design and performance
+                optimization.
+              </p>
+            </div>
+          </div>
 
-				<div class="achievement-item">
-					<a><img src="images/qissa.png" alt="Qissa" class="achievement-image"></a>
-					<div class="achievement-info">
-						<h3>Qissa</h3>
-						<p>Received an award for Best Innovation.</p>
-					</div>
-				</div>
+          <!-- ft_Transcendence Info -->
 
-				<!-- 42 White Rabbit -->
+          <div class="project-item">
+            <a href="https://transcendence.opinfosec.net/" target="_blank">
+              <img
+                src="images/transcendence.png"
+                alt="ft_transcendence"
+                class="project-image"
+              />
+            </a>
+            <div class="project-info">
+              <h3>ft_transcendence</h3>
+              <p>
+                A web application for the users to play a ping pong game against
+                each other. A last team project of 42 Abu Dhabi consists of 4
+                members.
+              </p>
+            </div>
+          </div>
+          <!-- Add more projects as needed -->
+        </section>
 
-				<div class="achievement-item">
-					<a><img src="images/42-WhiteRabbit.png" alt="WhiteRabbit" class="achievement-image"></a>
-					<div class="achievement-info">
-						<h3>42 White Rabbit</h3>
-						<p>Achieved 2nd Position in the 42 Abu Dhabi Hackathon Challenge.</p>
-					</div>
-				</div>
+        <section id="achievements">
+          <h2>Achievements</h2>
 
-				<!-- KBZAC -->
+          <!-- Qissa -->
 
-				<div class="achievement-item">
-					<a><img src="images/KBZAC.png" alt="KBZAC" class="achievement-image"></a>
-					<div class="achievement-info">
-						<h3>KBZAC</h3>
-						<p>Recognition for successfully delivering the simulated VR applications.</p>
-					</div>
-				</div>
+          <div class="achievement-item">
+            <a
+              ><img
+                src="images/qissa.png"
+                alt="Qissa"
+                class="achievement-image"
+            /></a>
+            <div class="achievement-info">
+              <h3>Qissa</h3>
+              <p>Received an award for Best Innovation.</p>
+            </div>
+          </div>
 
-			</section>
-		</div>
-	</div>
-	<!---typed js for typing text effect-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
-	<script>
-		/** creating button click show hide navbar **/
-		var togglebtn=document.querySelector(".togglebtn");
-		var nav=document.querySelector(".navlinks");
-		var links=document.querySelector(".navlinks li");
+          <!-- 42 White Rabbit -->
 
-		togglebtn.addEventListener("click", function(){
-			this.classList.toggle("click");
-			nav.classList.toggle("open");
-		})
+          <div class="achievement-item">
+            <a
+              ><img
+                src="images/42-WhiteRabbit.png"
+                alt="WhiteRabbit"
+                class="achievement-image"
+            /></a>
+            <div class="achievement-info">
+              <h3>42 White Rabbit</h3>
+              <p>
+                Achieved 2nd Position in the 42 Abu Dhabi Hackathon Challenge.
+              </p>
+            </div>
+          </div>
 
-		var typed=new Typed(".input",{
-			strings:["VR Developer", "Game Developer","Python Developer"],
-			typedSpeed:70,
-			backSpeed:55,
-			loop:true
-		})
-	</script>
-</body>
+          <!-- KBZAC -->
+
+          <div class="achievement-item">
+            <a
+              ><img
+                src="images/KBZAC.png"
+                alt="KBZAC"
+                class="achievement-image"
+            /></a>
+            <div class="achievement-info">
+              <h3>KBZAC</h3>
+              <p>
+                Recognition for successfully delivering the simulated VR
+                applications.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!---typed js for typing text effect-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+      /** creating button click show hide navbar **/
+      var togglebtn = document.querySelector(".togglebtn");
+      var nav = document.querySelector(".navlinks");
+      var links = document.querySelector(".navlinks li");
+
+      togglebtn.addEventListener("click", function () {
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+      });
+
+      var typed = new Typed(".input", {
+        strings: ["VR Developer", "Game Developer", "Python Developer"],
+        typedSpeed: 70,
+        backSpeed: 55,
+        loop: true,
+      });
+    </script>
+  </body>
 </html>
