@@ -1,0 +1,30 @@
+.mobile-nav-menu {
+    opacity: 0%;
+    height: 0;
+    width: 100vw;
+    transition: all 0.3s ease-in-out;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.show {
+    height: 100vh;
+    opacity: 100%;
+}
+
+.mobile-nav-menu ul {
+    list-style: none;
+}
+
+.mobile-nav-menu ul li{
+    margin:20px 0;
+}
+
+.mobile-nav-menu ul a{
+    font-size: 20px;
+    color:white;
+    font-weight: 500;
+}
